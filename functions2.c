@@ -10,6 +10,7 @@
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed.
+ * function that prints the value of a pointer variable
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -62,6 +63,7 @@ int print_pointer(va_list types, char buffer[],
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
+ * function that prints ascii codes in hexa of non printable chars
  */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
